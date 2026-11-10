@@ -16,8 +16,4 @@ function calculator() {
     collum = document.getElementById("tabuada");
 
     collum.classList.add("tabuada-aparecer");
-
-    collum.addEventListener("animationend", () => {
-            collum.classList.remove("tabuada-aparecer");
-        }, {once: true});
 }
